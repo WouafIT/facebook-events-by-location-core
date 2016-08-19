@@ -87,6 +87,20 @@
               "profilePicture": {
                 "type": "string"
               },
+              "categories": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
               "location": {
                 "type": "object",
                 "properties": {
