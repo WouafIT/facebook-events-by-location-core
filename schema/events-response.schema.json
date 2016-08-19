@@ -72,6 +72,12 @@
               "about": {
                 "type": ["string", "null"]
               },
+              "link": {
+                "type": ["string", "null"]
+              },
+              "username": {
+                "type": ["string", "null"]
+              },
               "emails": {
                 "type": ["array", "null"]
               },
